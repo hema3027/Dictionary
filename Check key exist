@@ -1,0 +1,10 @@
+#python
+d={'A':1,'B':2,'C':3}
+n=input("Enter key to check:")
+for i in d:
+    if i==n:
+        print("Key is present and value of the key is:\n",d[i])
+        break
+    else:
+        print("Key isn't present!")
+        break
