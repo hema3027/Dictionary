@@ -1,0 +1,5 @@
+#python
+d={'A':100,'B':540,'C':239}
+a=d.values()
+s=sum(a)
+print("Total sum of values in the dictionary:\n",s)
